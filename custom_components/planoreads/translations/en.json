@@ -1,0 +1,30 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "PlanoReads Water",
+        "description": "Enter the same details you use at cus.plano.gov/planoreads. The meter ID is shown on the portal after you log in (next to your account).",
+        "data": {
+          "account": "Account number",
+          "zip_code": "Service address ZIP code",
+          "meter_id": "Meter ID",
+          "history_days": "Days of history to request each poll"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "The portal rejected the account / ZIP / meter (or it is temporarily throttling logins). Double-check the values and try again in a few minutes.",
+      "cannot_connect": "Logged in but could not read the hourly table. The portal may have changed."
+    },
+    "abort": {
+      "already_configured": "This meter is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "today_usage": { "name": "Water used today" },
+      "latest_reading": { "name": "Meter reading" },
+      "last_read": { "name": "Last meter read" }
+    }
+  }
+}
