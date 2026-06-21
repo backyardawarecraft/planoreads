@@ -5,8 +5,8 @@
   "config_flow": true,
   "dependencies": ["recorder"],
   "documentation": "https://github.com/backyardawarecraft/planoreads",
-  "issue_tracker": "https://github.com/backyardawarecraft/planoreads/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/backyardawarecraft/planoreads/issues",
   "requirements": [],
   "version": "0.1.0"
 }
